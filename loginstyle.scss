@@ -1,0 +1,141 @@
+.header{
+    z-index: 0;
+    display: flex;
+    width: auto;
+    height: 100px;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.container1{
+    flex-grow: 1;
+    height: 50px;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1100px ;
+
+}
+
+.navigation{
+    display: flex;
+    flex-grow: 1;
+    height: 50px;
+    margin-left: auto;
+    position: relative;
+    max-width: 700px;
+    font-style: normal;
+    letter-spacing: 0px;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.navigation a{
+    position: relative;
+    font-size: 20px;
+    line-height: 3rem;
+    padding: 0px;
+    letter-spacing: 0px;
+    cursor: pointer;
+    font-family: "Bebas Neue", sans-serif;
+    color: #e4dad1; 
+    text-decoration: none;
+}
+
+a img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+
+.video-div{
+    z-index: -1;
+    display: flex;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+.video-div video{
+     object-fit: cover;
+    filter: brightness(1) blur(0px);
+    transition: filter 0.3s ease;
+    width: 100vw;
+}
+
+.video-div::after{
+    content: "";
+    background: linear-gradient(45deg, #000, rgba(20, 20, 20, 0));
+    z-index: 1;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.last-block{
+    position: relative;
+    top: 30rem;
+    z-index: 1;
+    height: 300px;
+    background-color: #0B0B0B;
+}
+.last-container{
+    display: grid;
+    place-content: center;
+    height: 200px;
+    width: 100%;
+}
+.photo-div{
+    width: 100%;
+}
+.container-div{
+    word-spacing: 20px;
+    font-size: 24px;
+    top: 2rem;
+    position: relative;
+    width: 100%;
+}
+
+.end{
+    display: flex;
+    width: 100%;
+    bottom: -7px;
+    height: 40px;
+    color: #aca49d;
+    position: relative;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.container-div a{
+    position: relative;
+    font-family: "Bebas Neue", sans-serif;
+    left: -4    0px;
+    color: #e4dad1; 
+    text-decoration: none;
+}
+
+
+.end a img {
+  width: 40px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.end a img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 5px #ffffff);
+}
+
+.header img{
+    transition: transform 0.3s ease;
+}
+
+.header img:hover {
+  transform: scale(1.1);
+}
