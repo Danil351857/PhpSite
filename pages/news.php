@@ -15,7 +15,7 @@
             <div class="burger" onclick="toggleMenu()">☰</div>
             <nav class="navigation">
                 <a href="/news">news</a>
-                <a href="">companion</a>
+                <a href="/OOP">OOP</a>
                 <a href="">mobile</a>
                 <a href="">merch</a>
                 <a href="">official skins</a>

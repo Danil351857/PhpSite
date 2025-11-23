@@ -5,6 +5,7 @@ $routes = [
     "/" => "pages/main.php",
     "/login" => "pages/Login.php",
     "/news" => "pages/news.php",
+    "/OOP" => "Classes/Class.php",
 ];
 
 if (array_key_exists($url, $routes)) {
