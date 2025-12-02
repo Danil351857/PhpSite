@@ -1,0 +1,17 @@
+{
+    "name": "tatakae/composer",
+    "description": "composer",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tatakae\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danil351857",
+            "email": "danilsuhanov981@gmail.com"
+        }
+    ],
+    "require": {}
+}
