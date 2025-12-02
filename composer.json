@@ -13,5 +13,8 @@
             "email": "danilsuhanov981@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "monolog/monolog": "^3.9",
+        "symfony/var-dumper": "^8.0"
+    }
 }
