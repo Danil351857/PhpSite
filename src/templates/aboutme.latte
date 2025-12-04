@@ -1,0 +1,16 @@
+
+
+{block content}
+<h1>{$title}</h1>
+
+<p><strong>Name:</strong> {$name}</p>
+<p><strong>Age:</strong> {$age}</p>
+<p><strong>About:</strong> {$description}</p>
+
+<h3>Skills:</h3>
+<ul>
+    {foreach $skills as $skill}
+        <li>{$skill}</li>
+    {/foreach}
+</ul>
+{/block}
